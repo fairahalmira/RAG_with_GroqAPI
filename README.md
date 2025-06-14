@@ -28,16 +28,13 @@ def get_llm():
 - Model used : ```[llama-3.3-70b-versatile, deepseek-r1-distill-llama-70b, gemma2-9b-it]```
 
 2.1 Analysis on ```llama-3.3-70b-versatile``` : 
-- “Dokumen ini membahas jenis-jenis antena BTS (macrocell, microcell, picocell, femtocell), arsitektur jaringan seluler, dan latar belakang perkembangan teknologi komunikasi seluler.”
-Jawaban sangat ringkas dan langsung ke inti.
+“Dokumen ini membahas jenis-jenis antena BTS (macrocell, microcell, picocell, femtocell), arsitektur jaringan seluler, dan latar belakang perkembangan teknologi komunikasi seluler.”
 
-Menggunakan bahasa Indonesia, cocok untuk pengguna lokal.
-
-Hanya menyebut topik umum (jenis antena BTS, arsitektur jaringan, latar belakang teknologi).
-
-Kurang mendalam untuk konteks akademik atau dokumentasi panjang.
-
-Cocok digunakan untuk preview cepat atau aplikasi end-user sederhana.
+- Jawaban sangat ringkas dan langsung ke inti.
+- Menggunakan bahasa Indonesia, cocok untuk pengguna lokal.
+- Hanya menyebut topik umum (jenis antena BTS, arsitektur jaringan, latar belakang teknologi).
+- Kurang mendalam untuk konteks akademik atau dokumentasi panjang.
+- Cocok digunakan untuk preview cepat atau aplikasi end-user sederhana.
 
 
 2.2 Analysis on ```deepseek-r1-distill-llama-70b``` : 
