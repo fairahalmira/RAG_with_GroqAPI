@@ -132,14 +132,10 @@ Jika berhasil, aplikasi akan berjalan di http://localhost:7860 atau alamat yang 
 
 Untuk mencoba model lain atau mengubah temperature, buka file app.py lalu:
 jika ubah model, ubah di bagian ini:
-```
-model_name = "llama-3.3-70b-versatile"
-
+```model_name = "llama-3.3-70b-versatile"
 ```
 jika ubah temperature berbeda,ubah di bagian ini:
- ```
-temperature = 0.2
-
+ ```temperature = 0.2
 ```
 💾 Jangan lupa simpan file setelah mengubah!
 lalu lanjut ke terminal tekan ctrl + c untuk mengakhiri program sebelumnya untuk menjalankan program dengan model yang berbeda
