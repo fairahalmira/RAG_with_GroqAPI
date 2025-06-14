@@ -13,7 +13,7 @@
 ---
 
 ### 1. Analysis about how the project works
-- Proyek ini menggunakan pendekatan Retrieval-Augmented Generation (RAG) untuk menjawab pertanyaan berdasarkan isi file PDF. Alurnya:
+Proyek ini menggunakan pendekatan Retrieval-Augmented Generation (RAG) untuk menjawab pertanyaan berdasarkan isi file PDF. Alurnya:
     1. User unggah PDF ➝ dipotong jadi teks kecil (chunk).
     2. Teks diubah ke bentuk vektor (embedding) lalu disimpan di FAISS.
     3. User tanya ➝ pertanyaan juga diubah jadi vektor.
