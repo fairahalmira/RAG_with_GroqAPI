@@ -68,10 +68,22 @@ def get_llm():
 ```
 
 3.1 Analysis on higher temperature 
-- TODO
+"File ini tampaknya adalah sebuah dokumen atau makalah tentang teknologi seluler, khususnya tentang jenis-jenis antena/pemancar BTS (Base Transceiver Station) dan arsitektur jaringan terkini. Dokumen ini juga membahas latar belakang perkembangan teknologi seluler dan faktor-faktor yang mempengaruhinya."
+
+Gaya Bahasa: Naratif, ekspresif, dan lebih luas.
+Fokus: Menyebut konteks teknologi seluler, BTS, bahkan menyimpulkan file sebagai makalah akademik.
+Ciri khas:
+- Lebih kreatif dan bebas, kadang menambah konteks.
+- Cocok untuk edukasi interaktif, chatbot, atau presentasi santai.
 
 3.2 Analysis on lower temperature
-- TODO
+“Dokumen ini membahas jenis-jenis antena BTS (macrocell, microcell, picocell, femtocell), arsitektur jaringan seluler, dan latar belakang perkembangan teknologi komunikasi seluler.”
+
+Gaya Bahasa: Objektif, formal, akademik.
+Fokus: Menjelaskan "Arsitektur Jaringan Terkini" dan "Software-Defined Networking" secara teknis.
+Ciri khas:
+- Tidak menambahkan informasi di luar isi file.
+- Jawaban lebih tepat, cocok untuk laporan atau tugas teknis.
 
 ### 4. How to run the project
 
