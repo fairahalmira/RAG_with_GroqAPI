@@ -28,7 +28,8 @@ def get_llm():
 - Model used : ```[llama-3.3-70b-versatile, deepseek-r1-distill-llama-70b, gemma2-9b-it]```
 
 2.1 Analysis on ```llama-3.3-70b-versatile``` : 
-- ```python
+-
+```python
 def get_llm():
     return ChatGroq(
         groq_api_key=GROQ_API_KEY,
