@@ -107,9 +107,9 @@ GROQ_API_KEY=your-groq-api-key
 
 - 🛠️ Create and activate virtual environment (recommended)
 
-```bash
+```
 python -m venv venv
-.env\Scripts\Activate
+.\venv\Scripts\Activate
 ```
 
 - 📦 Install all dependencies
