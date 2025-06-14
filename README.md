@@ -13,7 +13,22 @@
 ---
 
 ### 1. Analysis about how the project works
-- TODO
+- Proyek ini menggunakan pendekatan Retrieval-Augmented Generation (RAG) untuk menjawab pertanyaan berdasarkan isi file PDF. Alurnya:
+
+User unggah PDF ➝ dipotong jadi teks kecil (chunk).
+
+Teks diubah ke bentuk vektor (embedding) lalu disimpan di FAISS.
+
+User tanya ➝ pertanyaan juga diubah jadi vektor.
+
+FAISS cari teks paling relevan dari PDF.
+
+Teks relevan + pertanyaan dikirim ke LLM (via Groq API).
+
+Jawaban ditampilkan di antarmuka Gradio.
+
+Teknologi yang digunakan: LangChain, Gradio, HuggingFace Embedding, FAISS, dan Groq API.
+Kelebihannya: bisa menjawab secara akurat berdasarkan dokumen yang diunggah.
 
 ### 2. Analysis about how different every model works on Retrieval-Augmented Generation
 
