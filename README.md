@@ -106,37 +106,52 @@ GROQ_API_KEY=your-groq-api-key
 - Fill the ```GROQ_API_KEY``` with your Groq API Key, find it here : https://console.groq.com/keys
 
 - 🛠️ Create and activate virtual environment (recommended)
-  ```
+
+```bash
 python -m venv venv
-.\venv\Scripts\Activate
+.env\Scripts\Activate
 ```
+
 - 📦 Install all dependencies
-```
+
+```bash
 pip install -r requirements.txt
-
 ```
+
 - ▶️ Run the project using Gradio
-```
-python app.py
 
+```bash
+python app.py
 ```
+
 Jika berhasil, aplikasi akan berjalan di http://localhost:7860 atau alamat yang ditunjukkan di terminal kamu.
 
+---
+
 🔍 How to use the app
-1. Klik tombol "Unggah File PDF" lalu pilih file PDF kamu.
-2. klik tombol proses PDF lalu tunggu hingga selesai prosesnya.
-3. Setelah file berhasil diproses, ajukan pertanyaan di kolom "Pertanyaan".
+
+1. Klik tombol "Unggah File PDF" lalu pilih file PDF kamu.  
+2. Klik tombol proses PDF lalu tunggu hingga selesai prosesnya.  
+3. Setelah file berhasil diproses, ajukan pertanyaan di kolom "Pertanyaan".  
 4. Klik "Tanyakan", lalu jawaban akan muncul di bawahnya.
+
+---
 
 ⚙️ Eksperimen dengan model dan temperature berbeda
 
-Untuk mencoba model lain atau mengubah temperature, buka file app.py lalu:
-jika ubah model, ubah di bagian ini:
-```model_name = "llama-3.3-70b-versatile"
-```
-jika ubah temperature berbeda,ubah di bagian ini:
- ```temperature = 0.2
-```
-💾 Jangan lupa simpan file setelah mengubah!
-lalu lanjut ke terminal tekan ctrl + c untuk mengakhiri program sebelumnya untuk menjalankan program dengan model yang berbeda
+Untuk mencoba model lain atau mengubah temperature, buka file `app.py` lalu:
 
+Jika ubah model, ubah di bagian ini:
+
+```python
+model_name = "llama-3.3-70b-versatile"
+```
+
+Jika ubah temperature berbeda, ubah di bagian ini:
+
+```python
+temperature = 0.2
+```
+
+💾 Jangan lupa simpan file setelah mengubah!  
+Lalu lanjut ke terminal tekan Ctrl + C untuk mengakhiri program sebelumnya dan jalankan ulang dengan model yang berbeda.
