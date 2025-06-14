@@ -91,13 +91,13 @@ Ciri khas:
 
 ### 4. How to run the project
 
-- Clone this repository with : 
+- 🔗Clone this repository with : 
 
 ```git
 git clone https://github.com/arifian853/RAG_with_GroqAPI.git
 ```
 
-- Copy the ```.env.example``` file and rename it to ```.env```
+- 🔐Copy the ```.env.example``` file and rename it to ```.env```
 
 ```
 GROQ_API_KEY=your-groq-api-key
