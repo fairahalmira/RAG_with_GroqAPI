@@ -40,9 +40,9 @@ def get_llm():
 "<details> <summary>Klik untuk melihat jawaban lengkap</summary> <pre> <think> Okay, so the user is asking about a file, but they didn't specify which one... </think> File ini tampaknya adalah dokumen yang membahas tentang jenis-jenis antena atau pemancar BTS (Base Transceiver Station) dan perkembangan arsitektur jaringan terkini dalam teknologi seluler. Berikut adalah ringkasan dari konten yang ada dalam file tersebut: 1. Jenis-Jenis Antena/Pemancar BTS: - Macrocell: Jangkauan beberapa kilometer, biasanya dipasang di menara tinggi untuk cakupan luas. - Microcell: Jangkauan ratusan meter, digunakan di area padat seperti mall atau jalan perkotaan. - Picocell: Jangkauan puluhan meter, dipasang di dalam gedung untuk memperbaiki sinyal indoor. - Femtocell: Jangkauan sangat terbatas, digunakan untuk memperkuat sinyal di rumah atau ruangan kecil. 2. Arsitektur Jaringan Terkini: - Membahas kebutuhan komunikasi bergerak, keterbatasan teknologi telepon tetap, inovasi radio & digitalisasi sinyal, serta peningkatan permintaan data. File ini kemungkinan besar merupakan bahan presentasi akademik oleh kelompok mahasiswa: - Muhammad Aditya Pratama (2022610024) - Sapta Eka Putra (2022610044) </pre> </details>"
 
 - Memberikan jawaban paling lengkap, termasuk blok <think> yang menjelaskan reasoning internal model.
--Konten disusun secara terstruktur seperti penjelasan jenis antena BTS (Macrocell, Microcell, Picocell, Femtocell) serta latar belakang arsitektur jaringan dan faktor penggerak perkembangan teknologi seluler.
--Menyebut identitas mahasiswa sebagai pembuat file PDF.
--Cocok untuk laporan akademik, dokumentasi teknis, dan penulisan naratif mendalam.
+- Konten disusun secara terstruktur seperti penjelasan jenis antena BTS (Macrocell, Microcell, Picocell, Femtocell) serta latar belakang arsitektur jaringan dan faktor penggerak perkembangan teknologi seluler.
+- Menyebut identitas mahasiswa sebagai pembuat file PDF.
+- Cocok untuk laporan akademik, dokumentasi teknis, dan penulisan naratif mendalam.
 
 2.3 Analysis on ```gemma2-9b-it``` : 
 “This file appears to be a report or presentation about cellular network technology.
@@ -71,7 +71,9 @@ def get_llm():
 "File ini tampaknya adalah sebuah dokumen atau makalah tentang teknologi seluler, khususnya tentang jenis-jenis antena/pemancar BTS (Base Transceiver Station) dan arsitektur jaringan terkini. Dokumen ini juga membahas latar belakang perkembangan teknologi seluler dan faktor-faktor yang mempengaruhinya."
 
 Gaya Bahasa: Naratif, ekspresif, dan lebih luas.
+
 Fokus: Menyebut konteks teknologi seluler, BTS, bahkan menyimpulkan file sebagai makalah akademik.
+
 Ciri khas:
 - Lebih kreatif dan bebas, kadang menambah konteks.
 - Cocok untuk edukasi interaktif, chatbot, atau presentasi santai.
@@ -80,7 +82,9 @@ Ciri khas:
 “Dokumen ini membahas jenis-jenis antena BTS (macrocell, microcell, picocell, femtocell), arsitektur jaringan seluler, dan latar belakang perkembangan teknologi komunikasi seluler.”
 
 Gaya Bahasa: Objektif, formal, akademik.
+
 Fokus: Menjelaskan "Arsitektur Jaringan Terkini" dan "Software-Defined Networking" secara teknis.
+
 Ciri khas:
 - Tidak menambahkan informasi di luar isi file.
 - Jawaban lebih tepat, cocok untuk laporan atau tugas teknis.
